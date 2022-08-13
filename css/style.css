@@ -292,3 +292,15 @@ display: block;
   height: auto;
   vertical-align: middle;
 }
+
+.introducing{ 
+  padding: 20px;
+  height: 35rem;
+  background-image: url('../images/special-introducing.png');
+  background-size: cover;
+  overflow: hidden;
+  }
+
+  .big-introducing{
+    text-align: center;
+  }
