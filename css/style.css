@@ -233,15 +233,6 @@ font-weight: 600;
 display: block;
 }
 
-.block{
-  width: 70%;
-  margin:  auto;
-  display: flex;
-  margin-left: 60px;
-  margin-right: 60px;
-  
-}
-
 .money-back{
   background-image: linear-gradient(0deg,#f47325,#f99f21);
   display: flex;
@@ -250,8 +241,20 @@ display: block;
   margin-top: 28px;
   width: 100%;
 }
-.image-money-back{
+
+.block{
+  
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px;
   width: 100%;
+  padding-left: 25rem;
+  padding-right: 27rem;
+  
+  
+}
+
+.container-money-back{
   margin-right: 100px;
   margin-bottom: -1.25rem;
   margin-top: -1.25rem;
@@ -260,6 +263,7 @@ display: block;
   box-sizing: border-box;
   margin: auto;
 }
+
 .text-money-back{
   width: 100%;
   padding-top: 40px;
@@ -267,7 +271,8 @@ display: block;
   padding-right: 8px;
   padding-bottom: 24px;
   font-weight: 100;
-  display: block;
+  display: flex;
+  text-align: left;
 }
 .text-left-money-back{
   color: white;
@@ -282,7 +287,7 @@ display: block;
   margin-top: -1.25rem;
   margin-left: 200px;
   margin: auto;
-  display: inline;
+  display: flex;
   width: 30%;
   height: auto;
   vertical-align: middle;
