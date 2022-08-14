@@ -6,7 +6,7 @@
   background-color: black;
 }
 
-section{
+.first-section{
   
 padding: 20px;
 background-image: url('../images/welcome.jpg');
@@ -294,8 +294,9 @@ display: block;
 }
 
 .introducing{ 
+  float:inline-end;
   padding: 20px;
-  height: 35rem;
+  height: 33rem;
   background-image: url('../images/special-introducing.png');
   background-size: cover;
   overflow: hidden;
@@ -304,3 +305,35 @@ display: block;
   .big-introducing{
     text-align: center;
   }
+
+  .introducing-text{
+    position: relative;
+    font-family: roboto-slab, serif;
+ font-weight: 700;
+ font-style: normal;
+ font-size: 22px; 
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: rgb(255,255,255);
+  }
+
+  .introducing-sticks{
+    text-align: center;
+    position: relative;
+    bottom: 26%;
+    
+  }
+  .text-below{
+display: flex;
+flex-direction: row;
+width: 960px;
+text-size-adjust: 100%;
+box-sizing: border-box;
+;
+  }
+ .the-world-text{
+    font-family: sans-serif;
+    text-decoration-style: none;
+    line-height: 24px;
+    font-size: 19px;
+ }
