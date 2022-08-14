@@ -331,9 +331,30 @@ text-size-adjust: 100%;
 box-sizing: border-box;
 ;
   }
- .the-world-text{
-    font-family: sans-serif;
-    text-decoration-style: none;
+  .text-block{
+    width: 930px;
+    margin: auto;
+    
+  }
+  .text-flex-row{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  align-items: center;
+    
+  }
+  .only-text{
+    width: 639px;
     line-height: 24px;
+    display: block;
+    box-sizing: border-box;
+    font-family: roboto-slab, ;
     font-size: 19px;
+  }
+ .the-world-text{
+    
+    text-decoration-style: none;
+    line-height: 28px;
+    font-size: 19px;
+    text-align: left;
  }
