@@ -357,9 +357,18 @@ box-sizing: border-box;
     font-size: 22px;
     text-align: left;
     margin-bottom: 20px;
+    margin-top: 20px;
  }
  .upper-text{
+  text-align: left;
   font-size: 42px;
-  font-weight: 300;
-  margin-top: 30px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+ .arrows{
+  display: block;
+  width: 319px;
+  height: 567px;
  }
