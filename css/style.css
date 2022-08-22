@@ -337,38 +337,45 @@ box-sizing: border-box;
     
   }
   .text-flex-row{
-    display: flex;
-    flex-direction: row;
+    text-align: center;
     box-sizing: border-box;
   align-items: center;
     
   }
   .only-text{
-    width: 639px;
-    display: block;
+  
     box-sizing: border-box;
-    font-family: roboto-slab, ;
+    font-family: 'Roboto Slab';
     
   }
  .the-world-text{
-    
+  font-family: 'Roboto Slab';
+    width: 680px;
     text-decoration-style: none;
     line-height: 28px;
-    font-size: 22px;
+    font-size: 19px;
     text-align: left;
     margin-bottom: 20px;
     margin-top: 20px;
  }
  .upper-text{
+  font-family: 'Roboto Slab';
   text-align: left;
-  font-size: 42px;
+  font-size: 35px;
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
  }
 
  .arrows{
-  display: block;
-  width: 319px;
+  float: right;
+  width: 310px;
   height: 567px;
+  margin-top: 80px;
+ }
+
+ .yellow-div{
+  background-color: #FFE219;
+  width: auto;
+  text-size-adjust: 100%;
  }
