@@ -375,7 +375,14 @@ box-sizing: border-box;
  }
 
  .yellow-div{
+  font-family: 'Roboto Slab';
   background-color: #FFE219;
-  width: auto;
-  text-size-adjust: 100%;
+  text-decoration-style: none;
+    line-height: 28px;
+    font-size: 19px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    ;
  }
